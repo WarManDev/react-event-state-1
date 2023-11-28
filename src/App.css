@@ -1,0 +1,43 @@
+* {
+box-sizing: border-box;
+}
+
+.Portfolio {
+  width: 630px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn {
+  margin-left: 10px;
+  border-radius: 0;
+  background-color: white; 
+  cursor: pointer;
+  border-width: 1px;
+  padding: 5px 10px;
+  
+}
+
+.btn-selected {
+  background-color: gray;
+  margin-left: 10px;
+  border-radius: 0;
+  cursor: pointer;
+  border-width: 1px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.ProjectList {
+  margin-top: 20px;
+  column-count: 3;
+    width: 630px;
+    height:1200px;
+    display: inline-block;
+
+}
+
+.ProjectList img {
+  width: 200px;
+  margin: 5px;
+}
